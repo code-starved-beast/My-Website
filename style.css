@@ -1,0 +1,83 @@
+body {
+ 	font-family:Helvetica;
+ 	font-weight:100;
+  background: url(pencil.jpeg) center;
+  background-size:cover;
+}
+
+.navbar {
+  text-align: center;
+  font-size:40px;
+  margin-bottom:20px;
+}
+
+.navbar div {
+	background-color:black;
+	display:inline;
+  padding:10px;
+  color:white;
+  opacity:0.5;
+  -webkit-user-select: none; /* Chrome/Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+ */
+}
+
+#home:hover {
+  color:#ff4000;
+}
+
+#projects:hover {
+  color:#40ff80;
+}
+
+#contact:hover {
+  color:#ffb000;
+}
+
+#about:hover {
+  color:#6058ff;
+}
+
+#arrows {
+  position:fixed;
+  left:0;
+  right:0;
+  width:100%;
+}
+
+#arrows div {
+  margin:10px;
+  display:inline;
+  width: 0px;
+  height: 0px;
+  border-style: solid;
+  opacity:0.5;
+}
+
+#left_arrow {
+  float:left;
+  border-width: 136px 21px 136px 0;
+  border-color: transparent #000000 transparent transparent;
+}
+
+#left_arrow:hover {
+  border-color: transparent #ffffff transparent transparent;
+}
+
+#right_arrow {
+  float:right;
+  border-width: 136px 0px 136px 21px;
+  border-color: transparent transparent transparent #000000;
+}
+
+#right_arrow:hover {
+  border-color: transparent transparent transparent #ffffff;
+}
+
+#bffs {
+  text-align:center;
+}
+
+#bffs img {
+  border:5px solid white;
+}
